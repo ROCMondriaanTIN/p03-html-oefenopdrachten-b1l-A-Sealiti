@@ -1,8 +1,8 @@
 const cars = [
-    {brand: "bmw", description: "hier komt beschrijvingen", img: "img/bmw.png", link: "https://www.bmw.com/"},
-    {brand: "mercedes", description: "hier komt beschrijvingen", img: "img/mercedes.png", link: "https://www.mercedes-benz.com/"},
-    {brand: "audi", description: "hier komt beschrijvingen", img: "img/audi.png", link: "https://www.audi.com/"},
-    {brand: "bentley", description: "hier komt beschrijvingen",  img: "img/bentley.png", link: "https://www.bentleymotors.com/"},
+    {brand: "bmw", description: "meer info klik hier onder ", img: "img/bmw.png", link: "https://www.bmw.com/"},
+    {brand: "mercedes", description: "meer info klik hier onder ", img: "img/mercedes.png", link: "https://www.mercedes-benz.com/"},
+    {brand: "audi", description: "meer info klik hier onder ", img: "img/audi.png", link: "https://www.audi.com/"},
+    {brand: "bentley", description: "meer info klik hier onder ",  img: "img/bentley.png", link: "https://www.bentleymotors.com/"},
 ];
 
 const projects = [
