@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="contact-form">
+            <form action="/action_page.php" method="get">
+                <fieldset>
+            <legend>CONTACT FORMULIER </legend>
+            <br>
+            <br>
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" placeholder="voer hier wat in">
+<br><br>    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+<br>
+<br>
+            <label for="order-number">Bestelling Nummer: </label>
+            <input type="text" id="order-number" name="order-number">
+
+<br>
+<br>    
+
+            <label for="message">Bericht:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Verstuur</button>
+        </fieldset>
+            </form>
+        </section>
+    </main>
+
+
+
+    <form action="php pagina" method="post">
+        <fieldset>
+<legend> kies een maat </legend>
+<div>
+    <input type="radio" id="41" name="size" value="41" checked>
+    <label for="41"> 41 </label>
+</div>
+<div>
+    <input type="radio" id="42" name="size" value="42" checked>
+    <label for="42"> 42</label>
+</div>
+<div>
+    <input type="radio" id="42" name="size" value="43" checked>
+    <label for="42"> 43</label>
+</div>
+
+
+        </fieldset>
+
+
+
+
+
+    </form>
+</body>
+
+</html>
